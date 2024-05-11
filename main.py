@@ -16,6 +16,7 @@ def checkPalindrome(word):
         return True
     else:
         printf("Provided string is empty")
+        return False
 
 # this will take input from human and pass directly to the function 'checkPalindrome'
 palindrome = checkPalindrome(input("Human, enter a word please: "))
